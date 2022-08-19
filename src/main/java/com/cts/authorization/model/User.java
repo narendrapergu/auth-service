@@ -17,10 +17,7 @@ import lombok.NoArgsConstructor;
  *
  */
 
-@Getter
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
 @Table(name = "user_credentials")
 public class User {
 	@Id

@@ -18,10 +18,6 @@ import lombok.Setter;
  * @author 893846
  *
  */
-@Setter
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
 public class ErrorResponse {
 
 	private String message;
