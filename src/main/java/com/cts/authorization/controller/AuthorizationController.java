@@ -131,4 +131,10 @@ public class AuthorizationController {
 		log.info("OK");
 		return "OK";
 	}
+	
+	@GetMapping(value = "/hello")
+	public String hello() {
+		System.out.println("hello");
+		return "hello";
+	}
 }
