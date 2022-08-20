@@ -132,9 +132,4 @@ public class AuthorizationController {
 		return "OK";
 	}
 	
-	@GetMapping(value = "/hello")
-	public String hello() {
-		System.out.println("hello");
-		return "hello";
-	}
 }
