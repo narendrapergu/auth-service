@@ -129,7 +129,7 @@ public class AuthorizationController {
 	@GetMapping(value = "/statusCheck")
 	public String statusCheck() {
 		log.info("OK");
-		return "OK";
+		return "UP";
 	}
 	
 }
