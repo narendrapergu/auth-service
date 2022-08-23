@@ -122,6 +122,7 @@ public class AuthorizationController {
 
 	}
 
+	
 	/**
 	 * @URL: http://localhost:8081/statusCheck
 	 * @return "OK" if the server and controller is up and running
